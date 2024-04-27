@@ -1,0 +1,33 @@
+.orange {
+    border-top:  5px solid #e47d26;
+    background-color: antiquewhite;
+    margin-bottom: 0px;
+}
+
+.rose {
+    border-top: 5px solid #e47d96;
+    background-color: bisque;
+    margin-bottom: 0px;
+}
+
+.leftexp{
+    width: 45%;
+    float: left;
+    
+}
+
+
+.rightexp{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+background-color: antiquewhite;
+}
+
+.leftexp img{
+    width: 100%;
+    max-width: 500px;
+    max-height: 600px;
+    
+
+}

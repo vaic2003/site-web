@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VENTE ET LOCATION DES VOITURES</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="table">
+                <ul>
+                    <li class="menu-page_acceuil"><a href="page_acceuil.html">Acceuil</a></li>
+                    <li class="menu-second"><a href="second.html">Occasion</a></li>
+                    <li class="menu-trois"><a href="trois.html">Neuf</a></li>
+                    <li class="menu-quatre"><a href="quatre.html">Reprise</a></li>
+                    <li class="menu-formulaire"><a href="formulaire.html">Entretient</a></li>
+                    <li class="menu-description"><a href="description.html">Plus</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <h1 class="forme">FORMULAIRE </h1>
+        <form class="form" method="post" action="traitement.php">
+            <label for="prenom">entrer votre prenom</label>
+            <input type="text" id="prenom" name="prenom"><br>
+
+            <label for="pass">Entre un mot de passe</label>
+            <input type="password" id="pass" name="pass"><br>
+
+            <label for="naissance"> votre date de naissance</label>
+            <input type="date" id="naissance" name="nassance"><br>
+
+            <label for="email">Entrer votre email</label>
+            <input type="email" id="email" name="mail"><br>
+
+            <label for="site">Entrez votre site</label>
+            <input type="url" id="site" name="site"><br>
+
+            <label for="tel">Entrer un numero de tel</label>
+            <input type="number" id="tel" name="tel"><br>
+            Homme et femme ? <br>
+
+            <input type="radio" id="homme" name="sexe" value="homme">
+            <label for="homme">Un homme</label><br>
+
+            <input type="radio" id="femme" name="sexe" value="femme">
+            <label for="femme">Une femme</label><br>
+
+
+
+            <label for="prez">une petite presentation?</label>
+            <textarea id="prez" name="presentation"></textarea><br>
+
+            <input type="submit" value="envoyer">
+        </form>
+
+    </body>
+</html>
